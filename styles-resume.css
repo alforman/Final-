@@ -1,0 +1,38 @@
+*{
+    background-color:#002B3B;
+}
+
+.flex-container1{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+   width: 100%; 
+   padding-top: .8VW;
+   padding-bottom: .8vw;
+
+
+}
+  
+
+a:hover{
+  transition-property: font-size;
+  transition-property: color;
+  transition-duration: 0.3s;
+  font-size: 2.3vw;
+  color: #97d700;
+ 
+}
+
+li a{
+  text-decoration:none;
+  color: white;  
+ margin-left:2vw;
+ padding-right: 2vw;
+}
+ 
+li{
+  list-style-type: none; 
+  display: inline; 
+  font-size: 2vw;
+
+}
