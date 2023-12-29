@@ -1,8 +1,20 @@
 *{
     margin:0;
+    
 }
 
 
+h1{
+  font-size: 3vw;
+}
+
+h2{
+  font-size: 2.4vw;
+}
+
+p{
+  font-size: 1.5vw;
+}
   html {
   scroll-behavior: smooth;
 
@@ -72,12 +84,13 @@ h1{
  display:flex;
  flex-direction:row;
  margin-right: 2VW;
+ flex-wrap: wrap;
 }
 
 #flex-item4{
-  align-items: center;
   margin-right: 2w;
   width: 20%;
+  justify-content: center;
 }
 
 #flex-item5{
@@ -88,6 +101,7 @@ h1{
   margin-right:2vw;
 }
 
+/**
 .flex-container5{
     display: flex;
     flex-direction: row;
@@ -95,6 +109,14 @@ h1{
     flex-wrap: wrap;
     margin-bottom: 5VW;
 
+}
+**/
+
+.flex-container5{
+  display: flex;
+  flex-direction:wrap;
+justify-content: space-around;
+margin-bottom: 5vw;
 }
 
 #my-work {
@@ -146,3 +168,4 @@ h1{
   margin-right:2vw;
   margin-left: 2vw;
 }
+
